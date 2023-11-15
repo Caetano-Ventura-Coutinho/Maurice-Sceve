@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#nav{
+    position: fixed;
+    width: 100%;
+    height:80px;
+    background: #4F5050;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: Inika;
+    top:0
+  }
+  #nav ul{
+    display: flex;
+    list-style: none;
+    gap:206px;
+  
+  }
+  #nav a{
+    color: #B1B3B3;
+    
+  }
+  .banner img{
+    width: 100%;
+    margin-top: 80px;
+
+  }
