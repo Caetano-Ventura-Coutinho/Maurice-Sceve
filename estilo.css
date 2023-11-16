@@ -187,3 +187,70 @@
   justify-content:center;
   font-family: Inika;
 }
+
+#contatos{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 100%;
+  margin-top: 10%;
+}
+form{  
+  background-color: #b6b6b6;
+  width: 450px;
+  height: 450px;
+  margin-left: 5%;
+}
+
+form h1{
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+form input{
+  margin-left: 5%;
+  width: 90%;
+}
+
+#contatos iframe{
+ margin-top: -290px;
+ margin-left: 700px;
+}
+
+form button{
+  width: 40%;
+  margin-left: 30%;
+  cursor: pointer;
+}
+
+#local{
+  margin-top: -480px;
+  margin-left: 700px;
+  color:gray;
+  text-align: center;
+}
+.msg{
+  height: 30%;
+}
+#h2{
+  text-align: center;
+  margin: auto;
+}
+
+form p{
+  margin-left: 5%;
+}
+
+.locate{
+  margin-left: -1%;
+  margin-top: 300px;
+  width: 110%;
+}
+
+.texto h1{
+  margin-left: 40%;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
