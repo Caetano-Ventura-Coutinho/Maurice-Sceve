@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=Jomolhari&display=swap');
 
 * {
   margin: 0;
@@ -28,8 +29,111 @@
     color: #B1B3B3;
     
   }
+  #nav img{
+    margin-right: 206px;
+  }
+  #nav a:hover{
+    color: #fff;
+    font-size: 40px;
+    transition: 0.5s;
+  }
+
   .banner img{
     width: 100%;
     margin-top: 80px;
+  }
 
+  .slideshow{
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+  }
+  #homeprodutos{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+  }
+  #homeprodutos h4{
+    font-size: 20px;
+    font-family: Jomolhari;
+  }
+  .produtohome1{
+    height: 949px;
+    width: 342px;
+    background-color: #C0A18D;
+    text-align: center;
+    align-items: center;
+    border: #684437;
+    margin-top:125px;
+  }
+  .produtohome1 h4{
+    margin-top: 50px;
+  }
+  .produtohome1 h1{
+    margin-bottom: 50px;
+  }
+  .produtohome2{
+    height: 949px;
+    width: 342px;
+    background-color: #75869D;
+    text-align: center;
+    align-items: center;
+  }
+  .produtohome2 img{
+    margin-top: 50px;
+  }
+  .produtohome2 h4{
+    margin-top: 50px;
+    color: #020070;
+  }
+  .produtohome2 h1{
+    color: #020070;
+  }
+  .produtohome3{
+    height: 949px;
+    width: 342px;
+    background-color: #000;
+    text-align: center;
+    align-items: center;
+    margin-top:125px;
+    
+  }
+  .produtohome3 h4{
+    margin-top: 50px;
+    color: #fff;
+  }
+  .produtohome3 h1{
+    color: #fff;
+    margin-bottom: 50px;
+  }
+  .produtohome4{
+    height: 949px;
+    width: 342px;
+    background-color: #3C4711;
+    text-align: center;
+    align-items: center;
+  }
+  .produtohome4 img{
+    margin-top: 50px;
+  }
+  .produtohome4 h4{
+    margin-top:100px;
+    color:#8DFF71;
+  }
+  .produtohome4 h1{
+    color:#8DFF71;
+  }
+  #banner{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    margin-top:100px;
+    
+  }
+
+
+  #banner img{
+    display:flex;
   }
