@@ -67,6 +67,7 @@
     align-items: center;
     border: #684437;
     margin-top:125px;
+    border: 4px solid #684437;
   }
   .produtohome1 h4{
     margin-top: 50px;
@@ -80,6 +81,7 @@
     background-color: #75869D;
     text-align: center;
     align-items: center;
+    border: 4px solid #494D58;
   }
   .produtohome2 img{
     margin-top: 50px;
@@ -98,7 +100,7 @@
     text-align: center;
     align-items: center;
     margin-top:125px;
-    
+    border: 4px solid #2C2827;
   }
   .produtohome3 h4{
     margin-top: 50px;
@@ -114,6 +116,7 @@
     background-color: #3C4711;
     text-align: center;
     align-items: center;
+    border: 4px solid #386094 ;
   }
   .produtohome4 img{
     margin-top: 50px;
@@ -138,8 +141,11 @@
     display:flex;
   }
 
-  sobre{
-    margin-top: 20%;
+  #sobre{
+    margin-top: 100px;
+  }
+  #sobre h1{
+    font-family: Inika;
   }
   #sobre h1{
     text-align: center;
@@ -152,13 +158,14 @@
     margin-left: 5%;
     height: 500px;
     margin-top: 2%;
+    border: 10px solid #000;
   }
 
 .image img{
   margin-top: 10px;
   margin-left: 10px;
-  width: 50%;
-  height: 50%;
+  width: 600px;
+  
 
 }
 .text{
@@ -167,11 +174,16 @@
   width: 41%;
   height: 95%;
   margin-left: 57%;
-  margin-top: -39%;
+  margin-top: -470px;
+  display: flex;
+  align-items: center;
+  
 
 }
 .text p{
   color: white;
   font-size: 150%;
   margin-left: 2%;
+  justify-content:center;
+  font-family: Inika;
 }
