@@ -137,3 +137,41 @@
   #banner img{
     display:flex;
   }
+
+  sobre{
+    margin-top: 20%;
+  }
+  #sobre h1{
+    text-align: center;
+    font-size: 50px;
+  }
+  .div{
+    color: gray;
+    background-color: gray;
+    width: 90%;
+    margin-left: 5%;
+    height: 500px;
+    margin-top: 2%;
+  }
+
+.image img{
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 50%;
+  height: 50%;
+
+}
+.text{
+  color: black;
+  background-color: black;
+  width: 41%;
+  height: 95%;
+  margin-left: 57%;
+  margin-top: -39%;
+
+}
+.text p{
+  color: white;
+  font-size: 150%;
+  margin-left: 2%;
+}
