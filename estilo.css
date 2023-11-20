@@ -293,15 +293,39 @@ form p{
   margin-bottom: 50px;
 }
 
-footer{
-  text-align: center;
-  font-family: Jomolhari;
+.footer{
+  font-family: Inika;
   height: auto;
   background-color: #4F5050;
   color: #fff;
   padding-top: 10px;
   font-size: 20px;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+ 
+
+  
+  
 }
-footer img{
-margin-top: 50px;
+.text__footer{
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+}
+.redes{
+
+  height: 150px;
+  display: flex;
+}
+
+#redesociais{
+
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  gap: 150px;
+ 
+  
 }
