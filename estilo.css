@@ -329,3 +329,36 @@ form p{
  
   
 }
+
+@media screen and (min-width: 0px) and (max-width: 550px){
+
+  #slideshow{
+    display: none;
+  }
+
+  #redesociais{
+    gap:30px;
+  }
+
+  .redes img{
+    height: 75px;
+  }
+  #Novidades{
+    height: 150px;
+  }
+
+  #local{
+    display: none;
+  }
+  .locate{
+    display: none;
+  }
+  #nav{
+    position: flex;
+  }
+  #banner img{
+    height: 150px;
+  }
+
+
+}
