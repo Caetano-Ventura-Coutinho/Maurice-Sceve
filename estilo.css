@@ -198,11 +198,12 @@
 
 }
 
-#Novidades{
+.Novidades{
   display: flex;
   justify-content: center;
   margin-top: 30px;
   justify-content: space-around;
+
 }
 #preconovidades{
   display: flex;
@@ -322,8 +323,8 @@ form p{
   text-align: center;
 }
 .redes{
-
-  height: 150px;
+  margin-bottom: 30px;
+  height: 80px;
   display: flex;
 }
 
@@ -337,7 +338,7 @@ form p{
   
 }
 
-@media screen and (min-width: 0px) and (max-width: 550px){
+@media screen and (min-width: 0px) and (max-width: 560px){
 
   #slideshow{
     display: none;
@@ -350,8 +351,10 @@ form p{
   .redes img{
     height: 75px;
   }
-  #Novidades{
-    height: 150px;
+
+  #produtos img{
+    height: 200px;
+    width: 175px;
   }
 
   #local{
@@ -424,5 +427,8 @@ form p{
   #nav{
     position:static;
     
+  }
+  .footer{
+    font-size: 10px
   }
 }
